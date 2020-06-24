@@ -21,6 +21,6 @@ for filename in os.listdir(input_folder):
     img = Image.open(input_folder+filename)
     cleanname = os.path.splitext(filename)[0]
     img.save(output_folder+cleanname+'.png','png')
-    print('done')
+    print('all done')
 
 #img = Image.open(f'{input_folder}{filename}')
